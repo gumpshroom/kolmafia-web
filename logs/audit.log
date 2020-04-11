@@ -16,3 +16,18 @@
 11-Apr-2020-10:22:19.783 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-10:36:42.884 | FAILED | admin | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-10:36:46.650 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-11:38:12.991 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-11:44:28.825 | FAILED | user | Invalid Username or Password | / | http | 196.53.0.216 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-11:44:31.319 | SUCCESS | user |  | / | http | 196.53.0.216 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-11:48:07.337 | SUCCESS | ggar |  | / | http | 196.53.0.216 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-11:48:26.282 | SUCCESS | ggar |  | / | http | 196.53.0.216 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-11:48:43.963 | SUCCESS | ggar |  | / | http | 196.53.0.216 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-13:07:03.668 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-14:06:15.926 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-14:11:35.298 | SUCCESS | anonym |  | /kolmafia | http | 127.0.0.1 | org.webswing.server.services.security.modules.anonym.AnonymSecurityModule
+11-Apr-2020-14:13:05.269 | FAILED | ggar | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-14:13:08.035 | FAILED | ggar | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-14:13:11.291 | FAILED | admin | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-14:13:13.903 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-14:13:18.054 | FAILED | admin | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-14:13:25.496 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
