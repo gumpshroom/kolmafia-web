@@ -14,3 +14,5 @@
 11-Apr-2020-10:16:57.782 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-10:22:13.339 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-10:22:19.783 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:36:42.884 | FAILED | admin | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:36:46.650 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule

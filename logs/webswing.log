@@ -565,3 +565,9 @@ Caused by: java.lang.RuntimeException: Java version not supported. (Versions sta
 2020-04-11 10:27:49,491 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_admin_f71b443a4f55_1586614963962] WARNING: Session inactive for 120 seconds.
 2020-04-11 10:28:48,693 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_admin_f71b443a4f55_1586614963962] WARNING: Session inactive for 180 seconds.
 2020-04-11 10:29:48,994 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_admin_f71b443a4f55_1586614963962] WARNING: Session inactive for 240 seconds.
+2020-04-11 10:30:49,247 INFO  [ActiveMQ Session Task-1] (SwingProcessImpl.java:142) Waiting 30000ms for app process kolmafia_admin_f71b443a4f55_1586614963962 to end.
+2020-04-11 10:30:49,296 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_admin_f71b443a4f55_1586614963962] WARNING: Session inactive for 300 seconds.
+2020-04-11 10:30:49,296 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_admin_f71b443a4f55_1586614963962] INFO: (Inactivity) Application Shutdown scheduled. (delayed by 0 seconds).
+2020-04-11 10:30:49,296 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_admin_f71b443a4f55_1586614963962] WARNING: Exiting application due to inactivity for 300 seconds.
+2020-04-11 10:30:49,297 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_admin_f71b443a4f55_1586614963962] INFO: No shutdown listener found. Using default shutdown procedure.
+2020-04-11 10:30:49,796 INFO  [Webswing Process Handler] (SwingProcessImpl.java:158) [kolmafia_admin_f71b443a4f55_1586614963962] app process terminated. 

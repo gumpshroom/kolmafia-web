@@ -919,3 +919,4 @@ net.sourceforge.kolmafia.session.LogoutManager
 net.sourceforge.kolmafia.session.LogoutManager$ResetGUIRunnable
 net.sourceforge.kolmafia.BuffBotHome
 net.sourceforge.kolmafia.request.LogoutRequest
+net.sourceforge.kolmafia.KoLmafia$QuitRunnable
