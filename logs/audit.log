@@ -1,0 +1,16 @@
+11-Apr-2020-10:03:08.402 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:03:11.711 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:03:13.062 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:03:13.384 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:03:13.725 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:05:20.397 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:05:38.580 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:05:42.613 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:05:43.512 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:05:44.841 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:05:51.631 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:06:04.580 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:10:40.674 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:16:57.782 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:22:13.339 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-10:22:19.783 | SUCCESS | admin |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
