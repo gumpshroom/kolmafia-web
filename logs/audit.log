@@ -31,3 +31,9 @@
 11-Apr-2020-14:13:13.903 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-14:13:18.054 | FAILED | admin | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-14:13:25.496 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-18:23:01.330 | SUCCESS | ggar |  | / | http | 35.191.2.119 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-18:30:46.070 | SUCCESS | anonym |  | /kolmafia | http | 196.53.0.216, 35.201.120.147, 35.191.8.99 | org.webswing.server.services.security.modules.anonym.AnonymSecurityModule
+11-Apr-2020-19:25:29.961 | SUCCESS | ggar |  | / | http | 35.191.0.0 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+12-Apr-2020-01:30:25.598 | SUCCESS | anonym |  | /kolmafia | http | 196.53.0.109, 35.201.120.147, 35.191.8.29 | org.webswing.server.services.security.modules.anonym.AnonymSecurityModule
+12-Apr-2020-16:38:37.767 | SUCCESS | ggar |  | / | http | 35.191.2.108 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+12-Apr-2020-16:40:01.230 | SUCCESS | ggar |  | / | http | 72.65.57.89, 35.201.120.147, 130.211.0.59 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
