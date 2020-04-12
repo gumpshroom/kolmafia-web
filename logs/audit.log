@@ -37,3 +37,6 @@
 12-Apr-2020-01:30:25.598 | SUCCESS | anonym |  | /kolmafia | http | 196.53.0.109, 35.201.120.147, 35.191.8.29 | org.webswing.server.services.security.modules.anonym.AnonymSecurityModule
 12-Apr-2020-16:38:37.767 | SUCCESS | ggar |  | / | http | 35.191.2.108 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 12-Apr-2020-16:40:01.230 | SUCCESS | ggar |  | / | http | 72.65.57.89, 35.201.120.147, 130.211.0.59 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+12-Apr-2020-15:18:19.263 | SUCCESS | anonym |  | /kolmafiaweb | http | 99.79.42.193 | org.webswing.server.services.security.modules.anonym.AnonymSecurityModule
+12-Apr-2020-15:19:27.809 | SUCCESS | ggar |  | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+12-Apr-2020-15:20:00.085 | SUCCESS | ggar |  | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
