@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.9.4
 Created-By: Apache Maven 3.6.1
@@ -13,3 +14,20 @@ describe: 20.1
 remoteOriginUrl: https://bitbucket.org/webswing/webswing-home.git
 version: 20.1
 
+=======
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+Created-By: Apache Maven 3.6.1
+Built-By: root
+Build-Jdk: 11.0.3
+Main-Class: main.Main
+Ignore-Scanning-Packages: com,org,net
+branch: master
+buildTime: 03.04.2020 @ 20:14:51 UTC
+commitId: bed74d8d3b5c4d9c867ac3c90f8f70cf8b376e34
+commitTime: 03.04.2020 @ 19:14:29 UTC
+describe: 20.1
+remoteOriginUrl: https://bitbucket.org/webswing/webswing-home.git
+version: 20.1
+
+>>>>>>> 9fe6183e174d92e3795c249fb3323f04ebba9a63

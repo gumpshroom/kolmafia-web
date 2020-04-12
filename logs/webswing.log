@@ -703,6 +703,7 @@ Caused by: java.lang.RuntimeException: Java version not supported. (Versions sta
 2020-04-11 14:14:46,824 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586628836204] 	at java.lang.Thread.run(Thread.java:748)
 2020-04-11 14:14:46,824 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586628836204]  | 
 2020-04-11 14:14:47,217 INFO  [Webswing Process Handler] (SwingProcessImpl.java:158) [kolmafia_ggar_f71b443a4f55_1586628836204] app process terminated. 
+<<<<<<< HEAD
 2020-04-11 21:29:45,452 INFO  [main] (WebswingServlet.java:36) Initializing Webswing 20.1
 2020-04-11 21:29:45,749 INFO  [main] (DefaultInitializer.java:29) Using Temp folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release
 2020-04-11 21:29:45,750 INFO  [main] (DefaultInitializer.java:33) Using Root folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1
@@ -953,3 +954,583 @@ Caused by: java.net.BindException: Address already in use
 2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
 2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 8729 [AWT-EventQueue-0] WARN org.webswing.services.impl.ddutil.FastDirectDrawServicesAdapter - Logical font Dialog not defined in font configuration. Using default browser counterpart.
 2020-04-12 12:46:48,613 INFO  [qtp2012846597-45] (StackLocator.java:71) App configuration for path '/kolmafia' changed.
+=======
+2020-04-11 18:19:35,207 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-11 18:19:37,241 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-11 18:19:37,245 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-11 18:19:37,247 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-11 18:19:37,250 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-11 18:19:38,020 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-11 18:19:38,948 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-11 18:19:44,952 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-11 18:19:45,530 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-11 18:19:45,532 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-11 18:19:45,533 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-11 18:19:45,542 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-11 18:19:45,566 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-11 18:19:48,105 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-11 18:19:48,358 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-11 18:19:49,016 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-11 18:20:38,840 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-11 18:20:41,113 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-11 18:20:41,114 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-11 18:20:41,115 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-11 18:20:41,116 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-11 18:20:41,509 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-11 18:20:42,229 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-11 18:20:52,025 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-11 18:20:53,029 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-11 18:20:53,029 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-11 18:20:53,030 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-11 18:20:53,031 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-11 18:20:53,032 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-11 18:20:56,187 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-11 18:20:56,354 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-11 18:20:56,749 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-11 18:21:17,787 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-11 18:21:19,154 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-11 18:21:19,156 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-11 18:21:19,157 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-11 18:21:19,158 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-11 18:21:19,583 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-11 18:21:20,160 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-11 18:21:25,528 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-11 18:21:26,279 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-11 18:21:26,282 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-11 18:21:26,284 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-11 18:21:26,286 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-11 18:21:26,288 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-11 18:21:29,486 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-11 18:21:29,573 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-11 18:21:30,240 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-11 18:22:45,135 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-11 18:22:46,586 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-11 18:22:46,593 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-11 18:22:46,598 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-11 18:22:46,606 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-11 18:22:47,177 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-11 18:22:48,079 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-11 18:22:53,468 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-11 18:22:53,820 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-11 18:22:53,823 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-11 18:22:53,825 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-11 18:22:53,828 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-11 18:22:53,830 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-11 18:22:55,550 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-11 18:22:55,751 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-11 18:22:56,136 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-11 18:28:55,647 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-11 18:28:58,445 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-11 18:28:58,446 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-11 18:28:58,447 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-11 18:28:58,447 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-11 18:28:58,959 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-11 18:28:59,846 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-11 18:29:09,438 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-11 18:29:10,345 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-11 18:29:10,346 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-11 18:29:10,346 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-11 18:29:10,364 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-11 18:29:10,365 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-11 18:29:14,244 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-11 18:29:14,545 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-11 18:29:15,740 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-11 19:27:22,555 INFO  [qtp428746855-36] (StackLocator.java:71) Installing application /kolmafiaweb
+2020-04-11 19:27:23,456 INFO  [qtp428746855-36] (StackLocator.java:71) App configuration for path '/kolmafiaweb' changed.
+2020-04-11 19:27:23,561 INFO  [qtp428746855-36] (StackLocator.java:71) App configuration for path '/kolmafiaweb' changed.
+2020-04-11 19:28:37,751 INFO  [qtp428746855-15] (StackLocator.java:71) App configuration for path '/kolmafiaweb' changed.
+2020-04-12 01:29:08,291 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-12 01:29:10,786 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-12 01:29:10,787 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-12 01:29:10,788 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-12 01:29:10,789 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-12 01:29:11,566 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-12 01:29:12,379 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-12 01:29:22,282 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-12 01:29:23,201 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-12 01:29:23,266 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-12 01:29:23,268 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-12 01:29:23,271 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-12 01:29:23,271 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-12 01:29:27,693 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-12 01:29:27,998 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-12 01:29:28,069 INFO  [main] (StackLocator.java:71) Installing application /kolmafiaweb
+2020-04-12 01:29:29,789 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-12 02:06:15,171 INFO  [qtp428746855-17] (StackLocator.java:71) Starting application process [kolmafia_anonym_4c4ed6d436d_1586657174387] from [/home/runner/kolmafia-web] :[/usr/lib/jvm/java-11-openjdk-amd64/bin/java, --patch-module, jdk.jsobject=/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_jdk.jsobject.modpatch-1.jar, --patch-module, java.desktop=/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar, --add-reads, jdk.jsobject=ALL-UNNAMED, --add-opens, java.base/java.net=ALL-UNNAMED, --add-opens, java.desktop/java.awt=ALL-UNNAMED, --add-opens, java.desktop/sun.awt.windows=ALL-UNNAMED, --add-opens, java.desktop/java.awt.event=ALL-UNNAMED, -Xbootclasspath/a:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_webswing-api-20.1.jar:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-java11-20.1.jar:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-20.1.jar:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar, -Djavax.sound.sampled.Clip=org.webswing.audio.AudioMixerProvider, -noverify, -Xmx4g, -Dwebswing.allowAutoDownload=true, -Dwebswing.jsLinkWhitelist=*, -Dwebswing.initialUrl=http://kolmafia-web.widgetmaster.repl.co/kolmafia/, -Dwebswing.sessionTimeoutIfInactive=false, -Dawt.toolkit=org.webswing.toolkit.WebToolkit11, -Dwebswing.tempDirPath=file:/home/runner/kolmafia-web/tmp/release/, -Dwebswing.printerJobDelegate=org.webswing.toolkit.WebPrinterJob, -Dwebswing.allowJsLink=true, -Dwebswing.transparentFileSave=true, -Dwebswing.allowUpload=true, -Dwebswing.directdraw.supported=true, -Dwebswing.sessionTimeoutSec=300, -Dwebswing.screenHeight=690, -Dwebswing.accessibilityEnabled=false, -Dwebswing.isolatedFs=false, -Dwebswing.allowDownload=true, -Dwebswing.transparentFileOpen=true, -Dwebswing.jmsUrl=nio://127.0.0.1:34455, -Dwebswing.allowDelete=true, -Dwebswing.clientId=kolmafia_anonym_4c4ed6d436d_1586657174387, -Dwebswing.mainClass=net.sourceforge.kolmafia.KoLmafia, -Dwebswing.applicationHome=/home/runner/kolmafia-web, -Dwebswing.compositingWindowManager=false, -Dwebswing.screenWidth=1309, -Djava.awt.printerjob=org.webswing.toolkit.WebPrinterJobWrapper, -Dwebswing.allowLocalClipboard=true, -Dwebswing.messagingApiTopicName=msgApiSharedTopic/kolmafia, -Dwebswing.classPath=/home/runner/kolmafia-web/apps/KoLMafia-20.3.jar, -Dwebswing.appId=/kolmafia, -Dwebswing.directdraw=true, -Dwebswing.transfer.dir=/home/runner/kolmafia-web/anonym/upload, -Dwebswing.theme=Murrine, -Dwebswing.touchMode=false, -Djava.awt.graphicsenv=org.webswing.toolkit.ge.WebGraphicsEnvironment11, -Djava.awt.headless=false, -Dwebswing.jmsQueueId=kolmafia_anonym_4c4ed6d436d_1586657174387, -Dwebswing.dockMode=ALL, -Dwebswing.testMode=false, -cp, /home/runner/kolmafia-web/webswing-server.war, main.Main]
+2020-04-12 02:06:16,777 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] WARNING: package sun.awt.windows not in java.desktop
+2020-04-12 02:06:19,771 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] INFO: JPDFWriter library not found on classpath, fallback to FreeHEP PDF service.
+2020-04-12 02:06:21,471 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] WARNING: An illegal reflective access operation has occurred
+2020-04-12 02:06:21,472 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] WARNING: Illegal reflective access by org.webswing.toolkit.WebToolkit to method sun.awt.X11GraphicsEnvironment.initDisplay(boolean)
+2020-04-12 02:06:21,473 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] WARNING: Please consider reporting this to the maintainers of org.webswing.toolkit.WebToolkit
+2020-04-12 02:06:21,474 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2020-04-12 02:06:21,474 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] WARNING: All illegal access operations will be denied in a future release
+2020-04-12 02:06:21,474 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 
+2020-04-12 02:06:21,477 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] XOpenDisplay((null))
+2020-04-12 02:06:21,478 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Starting X
+2020-04-12 02:06:21,478 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] xset:  unable to open display ":0"
+2020-04-12 02:06:21,479 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] _XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+2020-04-12 02:06:21,571 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 
+2020-04-12 02:06:21,573 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] X.Org X Server 1.19.6
+2020-04-12 02:06:21,574 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Release Date: 2017-12-20
+2020-04-12 02:06:21,575 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] X Protocol Version 11, Revision 0
+2020-04-12 02:06:21,577 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Build Operating System: Linux 4.4.0-168-generic x86_64 Ubuntu
+2020-04-12 02:06:21,579 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Current Operating System: Linux 4c9f503dba14 4.15.0-1036-gcp #38~16.04.1-Ubuntu SMP Tue Jun 25 15:30:46 UTC 2019 x86_64
+2020-04-12 02:06:21,580 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1036-gcp root=LABEL=cloudimg-rootfs ro scsi_mod.use_blk_mq=Y console=ttyS0
+2020-04-12 02:06:21,582 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Build Date: 14 November 2019  06:20:00PM
+2020-04-12 02:06:21,583 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] xorg-server 2:1.19.6-1ubuntu4.4 (For technical support please see http://www.ubuntu.com/support) 
+2020-04-12 02:06:21,584 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Current version of pixman: 0.34.0
+2020-04-12 02:06:21,585 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	Before reporting problems, check http://wiki.x.org
+2020-04-12 02:06:21,589 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	to make sure that you have the latest version.
+2020-04-12 02:06:21,591 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Markers: (--) probed, (**) from config file, (==) default setting,
+2020-04-12 02:06:21,591 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	(++) from command line, (!!) notice, (II) informational,
+2020-04-12 02:06:21,592 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+2020-04-12 02:06:21,593 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] (++) Log file: "/home/runner/.x.log", Time: Sun Apr 12 02:06:21 2020
+2020-04-12 02:06:21,594 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] (++) Using config file: "/opt/xorg.conf"
+2020-04-12 02:06:21,594 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-04-12 02:06:22,070 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Keyboard Control:
+2020-04-12 02:06:22,072 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   auto repeat:  on    key click percent:  0    LED mask:  00000000
+2020-04-12 02:06:22,073 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   XKB indicators:
+2020-04-12 02:06:22,073 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]     00: Caps Lock:   off    01: Num Lock:    off    02: Scroll Lock: off
+2020-04-12 02:06:22,074 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]     03: Shift Lock:  off    04: Group 2:     off    05: Mouse Keys:  off
+2020-04-12 02:06:22,076 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   auto repeat delay:  660    repeat rate:  25
+2020-04-12 02:06:22,081 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   auto repeating keys:  00feffffdffffbbf
+2020-04-12 02:06:22,082 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]                         fadfffffffdfe5ef
+2020-04-12 02:06:22,082 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]                         ffffffffffffffff
+2020-04-12 02:06:22,083 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]                         ffffffffffffffff
+2020-04-12 02:06:22,083 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   bell percent:  50    bell pitch:  400    bell duration:  100
+2020-04-12 02:06:22,083 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Pointer Control:
+2020-04-12 02:06:22,083 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   acceleration:  2/1    threshold:  4
+2020-04-12 02:06:22,083 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Screen Saver:
+2020-04-12 02:06:22,083 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   prefer blanking:  yes    allow exposures:  yes
+2020-04-12 02:06:22,083 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   timeout:  600    cycle:  600
+2020-04-12 02:06:22,090 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Colors:
+2020-04-12 02:06:22,090 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   default colormap:  0x20    BlackPixel:  0x0    WhitePixel:  0xffffff
+2020-04-12 02:06:22,090 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Font Path:
+2020-04-12 02:06:22,090 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   /usr/share/fonts/X11/misc,built-ins
+2020-04-12 02:06:22,091 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] DPMS (Energy Star):
+2020-04-12 02:06:22,091 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]   Display is not capable of DPMS
+2020-04-12 02:06:22,091 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] PORT=5900
+2020-04-12 02:06:22,273 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 5.. Failed to read: session.styleOverlay
+2020-04-12 02:06:22,273 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,274 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.slitlistFile
+2020-04-12 02:06:22,274 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,275 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.appsFile
+2020-04-12 02:06:22,277 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,277 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.styleOverlay
+2020-04-12 02:06:22,277 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,278 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.slitlistFile
+2020-04-12 02:06:22,278 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,278 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.appsFile
+2020-04-12 02:06:22,278 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,278 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.fullMaximization
+2020-04-12 02:06:22,279 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,279 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.maxIgnoreIncrement
+2020-04-12 02:06:22,279 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,279 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.maxDisableMove
+2020-04-12 02:06:22,280 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,280 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.maxDisableResize
+2020-04-12 02:06:22,280 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,280 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.workspacewarping
+2020-04-12 02:06:22,280 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,286 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.showwindowposition
+2020-04-12 02:06:22,286 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,287 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.autoRaise
+2020-04-12 02:06:22,287 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,288 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.clickRaises
+2020-04-12 02:06:22,289 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,289 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.defaultDeco
+2020-04-12 02:06:22,290 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,290 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tab.placement
+2020-04-12 02:06:22,291 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,291 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.windowMenu
+2020-04-12 02:06:22,292 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,293 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.noFocusWhileTypingDelay
+2020-04-12 02:06:22,293 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,294 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.workspaces
+2020-04-12 02:06:22,294 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,295 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.menu.alpha
+2020-04-12 02:06:22,295 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,296 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.menuDelay
+2020-04-12 02:06:22,296 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,296 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tab.width
+2020-04-12 02:06:22,296 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,298 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabs.usePixmap
+2020-04-12 02:06:22,298 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,298 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabs.maxOver
+2020-04-12 02:06:22,298 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,298 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabs.intitlebar
+2020-04-12 02:06:22,299 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,299 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabFocusModel
+2020-04-12 02:06:22,300 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,300 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.focusNewWindows
+2020-04-12 02:06:22,300 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,300 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.colPlacementDirection
+2020-04-12 02:06:22,300 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,300 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.windowPlacement
+2020-04-12 02:06:22,371 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,372 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.styleOverlay
+2020-04-12 02:06:22,372 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,373 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.slitlistFile
+2020-04-12 02:06:22,373 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,375 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.appsFile
+2020-04-12 02:06:22,375 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,376 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.fullMaximization
+2020-04-12 02:06:22,379 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,379 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.maxIgnoreIncrement
+2020-04-12 02:06:22,380 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,382 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.maxDisableMove
+2020-04-12 02:06:22,382 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,384 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.maxDisableResize
+2020-04-12 02:06:22,384 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,384 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.workspacewarping
+2020-04-12 02:06:22,384 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,384 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.showwindowposition
+2020-04-12 02:06:22,385 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,385 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.autoRaise
+2020-04-12 02:06:22,385 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,385 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.clickRaises
+2020-04-12 02:06:22,388 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.defaultDeco
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tab.placement
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.windowMenu
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.noFocusWhileTypingDelay
+2020-04-12 02:06:22,390 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,391 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.workspaces
+2020-04-12 02:06:22,393 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,393 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.menu.alpha
+2020-04-12 02:06:22,393 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,393 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.menuDelay
+2020-04-12 02:06:22,393 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tab.width
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabs.usePixmap
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabs.maxOver
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabs.intitlebar
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.tabFocusModel
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.focusNewWindows
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.colPlacementDirection
+2020-04-12 02:06:22,394 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.windowPlacement
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.slit.acceptKdeDockapps
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.slit.autoHide
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.slit.maxOver
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.slit.placement
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.slit.alpha
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.slit.onhead
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,395 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.slit.layer
+2020-04-12 02:06:22,396 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,771 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.toolbar.autoHide
+2020-04-12 02:06:22,772 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,773 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.toolbar.alpha
+2020-04-12 02:06:22,773 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,774 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.toolbar.layer
+2020-04-12 02:06:22,774 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,774 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.toolbar.placement
+2020-04-12 02:06:22,774 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,775 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.toolbar.height
+2020-04-12 02:06:22,775 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,775 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.iconbar.mode
+2020-04-12 02:06:22,775 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,775 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.iconbar.alignment
+2020-04-12 02:06:22,775 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,776 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.iconbar.iconWidth
+2020-04-12 02:06:22,776 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,777 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.iconbar.iconTextPadding
+2020-04-12 02:06:22,777 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:22,777 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Failed to read: session.screen0.iconbar.usePixmap
+2020-04-12 02:06:22,777 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Setting default value
+2020-04-12 02:06:27,171 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 4.. 3.. 2.. 1.. 
+2020-04-12 02:06:27,172 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] Retrying request...
+2020-04-12 02:06:27,271 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] ERROR: SwingMain:main ERROR: Required classpath file '/home/runner/kolmafia-web/apps/KoLMafia-20.3.jar' does not exist!
+2020-04-12 02:06:27,370 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] INFO: ClassModificationRegister: lock acquired.
+2020-04-12 02:06:27,371 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] FATAL: SwingMain:main -> java.lang.ClassNotFoundException: net.sourceforge.kolmafia.KoLmafia
+2020-04-12 02:06:27,371 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at org.webswing.classloader.SwingClassloader.loadClass(SwingClassloader.java:250)
+2020-04-12 02:06:27,371 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2020-04-12 02:06:27,371 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at org.webswing.SwingMain.startSwingApp(SwingMain.java:57)
+2020-04-12 02:06:27,371 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at org.webswing.SwingMain.main(SwingMain.java:46)
+2020-04-12 02:06:27,372 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2020-04-12 02:06:27,372 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2020-04-12 02:06:27,372 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2020-04-12 02:06:27,372 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2020-04-12 02:06:27,372 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] 	at main.Main.main(Main.java:80)
+2020-04-12 02:06:27,372 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387]  | 
+2020-04-12 02:06:27,471 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_anonym_4c4ed6d436d_1586657174387] app process terminated. 
+2020-04-12 16:37:37,247 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-12 16:37:44,138 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-12 16:37:44,140 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-12 16:37:44,142 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-12 16:37:44,143 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-12 16:37:46,258 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-12 16:37:48,646 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-12 16:38:16,642 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-12 16:38:19,436 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-12 16:38:19,437 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-12 16:38:19,438 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-12 16:38:19,536 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-12 16:38:19,540 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-12 16:38:29,946 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-12 16:38:30,348 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-12 16:38:30,353 INFO  [main] (StackLocator.java:71) Installing application /kolmafiaweb
+2020-04-12 16:38:32,547 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-12 16:39:21,237 INFO  [qtp428746855-35] (StackLocator.java:71) App configuration for path '/kolmafiaweb' changed.
+2020-04-12 16:40:08,160 INFO  [qtp428746855-14] (StackLocator.java:71) Starting application process [kolmafiaweb_ggar_37ea72a1a833_1586709607354] from [/home/runner/kolmafia-web] :[/usr/lib/jvm/java-11-openjdk-amd64/bin/java, --patch-module, jdk.jsobject=/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_jdk.jsobject.modpatch-1.jar, --patch-module, java.desktop=/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar, --add-reads, jdk.jsobject=ALL-UNNAMED, --add-opens, java.base/java.net=ALL-UNNAMED, --add-opens, java.desktop/java.awt=ALL-UNNAMED, --add-opens, java.desktop/sun.awt.windows=ALL-UNNAMED, --add-opens, java.desktop/java.awt.event=ALL-UNNAMED, -Xbootclasspath/a:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_webswing-api-20.1.jar:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-java11-20.1.jar:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-20.1.jar:/home/runner/kolmafia-web/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar, -Djavax.sound.sampled.Clip=org.webswing.audio.AudioMixerProvider, -noverify, -Dwebswing.allowAutoDownload=true, -Dwebswing.jsLinkWhitelist=*, -Dwebswing.initialUrl=http://kolmafia-web.widgetmaster.repl.co/kolmafiaweb/, -Dwebswing.sessionTimeoutIfInactive=false, -Dawt.toolkit=org.webswing.toolkit.WebToolkit11, -Dwebswing.tempDirPath=file:/home/runner/kolmafia-web/tmp/release/, -Dwebswing.printerJobDelegate=org.webswing.toolkit.WebPrinterJob, -Dwebswing.allowJsLink=true, -Dwebswing.transparentFileSave=true, -Dwebswing.allowUpload=true, -Dwebswing.directdraw.supported=true, -Dwebswing.sessionTimeoutSec=1200, -Dwebswing.screenHeight=610, -Dwebswing.accessibilityEnabled=false, -Dwebswing.isolatedFs=false, -Dwebswing.allowDownload=true, -Dwebswing.transparentFileOpen=true, -Dwebswing.jmsUrl=nio://127.0.0.1:34455, -Dwebswing.allowDelete=true, -Dwebswing.clientId=kolmafiaweb_ggar_37ea72a1a833_1586709607354, -Dwebswing.mainClass=net.sourceforge.kolmafia.KoLmafia, -Dwebswing.applicationHome=/home/runner/kolmafia-web, -Dwebswing.compositingWindowManager=false, -Dwebswing.screenWidth=1280, -Djava.awt.printerjob=org.webswing.toolkit.WebPrinterJobWrapper, -Dwebswing.allowLocalClipboard=true, -Dwebswing.messagingApiTopicName=msgApiSharedTopic/kolmafiaweb, -Dwebswing.classPath=/home/runner/kolmafia-web/apps/KoLmafia-20.3.jar, -Dwebswing.appId=/kolmafiaweb, -Dwebswing.directdraw=true, -Dwebswing.transfer.dir=/home/runner/kolmafia-web/ggar/upload, -Dwebswing.theme=Murrine, -Dwebswing.touchMode=false, -Djava.awt.graphicsenv=org.webswing.toolkit.ge.WebGraphicsEnvironment11, -Djava.awt.headless=false, -Dwebswing.jmsQueueId=kolmafiaweb_ggar_37ea72a1a833_1586709607354, -Dwebswing.dockMode=ALL, -Dwebswing.testMode=false, -cp, /home/runner/kolmafia-web/webswing-server.war, main.Main]
+2020-04-12 16:40:09,354 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: package sun.awt.windows not in java.desktop
+2020-04-12 16:40:12,755 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] INFO: JPDFWriter library not found on classpath, fallback to FreeHEP PDF service.
+2020-04-12 16:40:14,254 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: An illegal reflective access operation has occurred
+2020-04-12 16:40:14,254 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Illegal reflective access by org.webswing.toolkit.WebToolkit to method sun.awt.X11GraphicsEnvironment.initDisplay(boolean)
+2020-04-12 16:40:14,255 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Please consider reporting this to the maintainers of org.webswing.toolkit.WebToolkit
+2020-04-12 16:40:14,255 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2020-04-12 16:40:14,255 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: All illegal access operations will be denied in a future release
+2020-04-12 16:40:14,255 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 
+2020-04-12 16:40:14,255 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] XOpenDisplay((null))
+2020-04-12 16:40:14,258 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Starting X
+2020-04-12 16:40:14,354 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] xset:  unable to open display ":0"
+2020-04-12 16:40:14,355 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] _XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+2020-04-12 16:40:14,355 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 
+2020-04-12 16:40:14,355 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] X.Org X Server 1.19.6
+2020-04-12 16:40:14,356 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Release Date: 2017-12-20
+2020-04-12 16:40:14,356 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] X Protocol Version 11, Revision 0
+2020-04-12 16:40:14,356 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Build Operating System: Linux 4.4.0-168-generic x86_64 Ubuntu
+2020-04-12 16:40:14,356 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Current Operating System: Linux 27ee2f7c3d2f 4.15.0-1036-gcp #38~16.04.1-Ubuntu SMP Tue Jun 25 15:30:46 UTC 2019 x86_64
+2020-04-12 16:40:14,356 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1036-gcp root=LABEL=cloudimg-rootfs ro scsi_mod.use_blk_mq=Y console=ttyS0
+2020-04-12 16:40:14,357 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Build Date: 14 November 2019  06:20:00PM
+2020-04-12 16:40:14,357 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] xorg-server 2:1.19.6-1ubuntu4.4 (For technical support please see http://www.ubuntu.com/support) 
+2020-04-12 16:40:14,357 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Current version of pixman: 0.34.0
+2020-04-12 16:40:14,357 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 	Before reporting problems, check http://wiki.x.org
+2020-04-12 16:40:14,357 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 	to make sure that you have the latest version.
+2020-04-12 16:40:14,361 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Markers: (--) probed, (**) from config file, (==) default setting,
+2020-04-12 16:40:14,361 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 	(++) from command line, (!!) notice, (II) informational,
+2020-04-12 16:40:14,361 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+2020-04-12 16:40:14,361 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] (++) Log file: "/home/runner/.x.log", Time: Sun Apr 12 16:40:14 2020
+2020-04-12 16:40:14,362 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] (++) Using config file: "/opt/xorg.conf"
+2020-04-12 16:40:14,362 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-04-12 16:40:14,854 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Keyboard Control:
+2020-04-12 16:40:14,855 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   auto repeat:  on    key click percent:  0    LED mask:  00000000
+2020-04-12 16:40:14,856 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   XKB indicators:
+2020-04-12 16:40:14,856 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]     00: Caps Lock:   off    01: Num Lock:    off    02: Scroll Lock: off
+2020-04-12 16:40:14,856 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]     03: Shift Lock:  off    04: Group 2:     off    05: Mouse Keys:  off
+2020-04-12 16:40:14,858 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   auto repeat delay:  660    repeat rate:  25
+2020-04-12 16:40:14,859 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   auto repeating keys:  00feffffdffffbbf
+2020-04-12 16:40:14,860 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]                         fadfffffffdfe5ef
+2020-04-12 16:40:14,860 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]                         ffffffffffffffff
+2020-04-12 16:40:14,861 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]                         ffffffffffffffff
+2020-04-12 16:40:14,862 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   bell percent:  50    bell pitch:  400    bell duration:  100
+2020-04-12 16:40:14,863 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Pointer Control:
+2020-04-12 16:40:14,864 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   acceleration:  2/1    threshold:  4
+2020-04-12 16:40:14,864 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Screen Saver:
+2020-04-12 16:40:14,865 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   prefer blanking:  yes    allow exposures:  yes
+2020-04-12 16:40:14,865 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   timeout:  600    cycle:  600
+2020-04-12 16:40:14,866 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Colors:
+2020-04-12 16:40:14,866 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   default colormap:  0x20    BlackPixel:  0x0    WhitePixel:  0xffffff
+2020-04-12 16:40:14,866 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Font Path:
+2020-04-12 16:40:14,866 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   /usr/share/fonts/X11/misc,built-ins
+2020-04-12 16:40:14,866 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] DPMS (Energy Star):
+2020-04-12 16:40:14,867 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]   Display is not capable of DPMS
+2020-04-12 16:40:14,954 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] PORT=5900
+2020-04-12 16:40:15,154 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 5.. Failed to read: session.styleOverlay
+2020-04-12 16:40:15,158 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,163 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.slitlistFile
+2020-04-12 16:40:15,164 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,164 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.appsFile
+2020-04-12 16:40:15,166 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,167 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.styleOverlay
+2020-04-12 16:40:15,169 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,170 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.slitlistFile
+2020-04-12 16:40:15,171 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,172 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.appsFile
+2020-04-12 16:40:15,231 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,354 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.fullMaximization
+2020-04-12 16:40:15,357 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,358 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.maxIgnoreIncrement
+2020-04-12 16:40:15,359 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,359 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.maxDisableMove
+2020-04-12 16:40:15,359 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,360 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.maxDisableResize
+2020-04-12 16:40:15,360 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,360 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.workspacewarping
+2020-04-12 16:40:15,360 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,360 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.showwindowposition
+2020-04-12 16:40:15,437 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,437 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.autoRaise
+2020-04-12 16:40:15,437 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,438 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.clickRaises
+2020-04-12 16:40:15,438 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,439 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.defaultDeco
+2020-04-12 16:40:15,439 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,439 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tab.placement
+2020-04-12 16:40:15,440 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,440 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.windowMenu
+2020-04-12 16:40:15,440 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,441 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.noFocusWhileTypingDelay
+2020-04-12 16:40:15,441 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,441 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.workspaces
+2020-04-12 16:40:15,441 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,441 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.menu.alpha
+2020-04-12 16:40:15,441 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,442 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.menuDelay
+2020-04-12 16:40:15,446 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,449 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tab.width
+2020-04-12 16:40:15,450 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,451 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabs.usePixmap
+2020-04-12 16:40:15,452 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,452 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabs.maxOver
+2020-04-12 16:40:15,453 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,454 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabs.intitlebar
+2020-04-12 16:40:15,454 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,454 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabFocusModel
+2020-04-12 16:40:15,455 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,533 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.focusNewWindows
+2020-04-12 16:40:15,535 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,538 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.colPlacementDirection
+2020-04-12 16:40:15,541 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,541 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.windowPlacement
+2020-04-12 16:40:15,542 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,542 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.styleOverlay
+2020-04-12 16:40:15,543 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,543 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.slitlistFile
+2020-04-12 16:40:15,543 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,543 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.appsFile
+2020-04-12 16:40:15,545 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,546 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.fullMaximization
+2020-04-12 16:40:15,547 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,548 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.maxIgnoreIncrement
+2020-04-12 16:40:15,549 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,550 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.maxDisableMove
+2020-04-12 16:40:15,634 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,635 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.maxDisableResize
+2020-04-12 16:40:15,635 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,636 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.workspacewarping
+2020-04-12 16:40:15,636 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,637 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.showwindowposition
+2020-04-12 16:40:15,637 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,637 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.autoRaise
+2020-04-12 16:40:15,638 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,638 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.clickRaises
+2020-04-12 16:40:15,639 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,639 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.defaultDeco
+2020-04-12 16:40:15,639 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,640 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tab.placement
+2020-04-12 16:40:15,640 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,640 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.windowMenu
+2020-04-12 16:40:15,641 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,641 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.noFocusWhileTypingDelay
+2020-04-12 16:40:15,643 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,644 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.workspaces
+2020-04-12 16:40:15,644 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,646 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.menu.alpha
+2020-04-12 16:40:15,646 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,731 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.menuDelay
+2020-04-12 16:40:15,733 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,734 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tab.width
+2020-04-12 16:40:15,734 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,735 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabs.usePixmap
+2020-04-12 16:40:15,735 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,736 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabs.maxOver
+2020-04-12 16:40:15,736 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,737 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabs.intitlebar
+2020-04-12 16:40:15,737 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,737 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.tabFocusModel
+2020-04-12 16:40:15,737 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,738 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.focusNewWindows
+2020-04-12 16:40:15,738 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,738 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.colPlacementDirection
+2020-04-12 16:40:15,738 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,738 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.windowPlacement
+2020-04-12 16:40:15,738 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,739 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.slit.acceptKdeDockapps
+2020-04-12 16:40:15,739 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,739 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.slit.autoHide
+2020-04-12 16:40:15,739 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,739 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.slit.maxOver
+2020-04-12 16:40:15,740 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,740 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.slit.placement
+2020-04-12 16:40:15,740 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,740 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.slit.alpha
+2020-04-12 16:40:15,741 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,741 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.slit.onhead
+2020-04-12 16:40:15,741 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,741 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.slit.layer
+2020-04-12 16:40:15,741 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,954 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.toolbar.autoHide
+2020-04-12 16:40:15,955 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,955 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.toolbar.alpha
+2020-04-12 16:40:15,955 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,955 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.toolbar.layer
+2020-04-12 16:40:15,956 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,956 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.toolbar.placement
+2020-04-12 16:40:15,956 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,957 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.toolbar.height
+2020-04-12 16:40:15,957 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,957 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.iconbar.mode
+2020-04-12 16:40:15,957 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,958 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.iconbar.alignment
+2020-04-12 16:40:15,958 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,958 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.iconbar.iconWidth
+2020-04-12 16:40:15,958 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,958 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.iconbar.iconTextPadding
+2020-04-12 16:40:15,959 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:15,959 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Failed to read: session.screen0.iconbar.usePixmap
+2020-04-12 16:40:15,959 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Setting default value
+2020-04-12 16:40:20,054 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 4.. 3.. 2.. 1.. 
+2020-04-12 16:40:20,055 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Retrying request...
+2020-04-12 16:40:20,354 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] INFO: ClassModificationRegister: lock acquired.
+2020-04-12 16:40:21,054 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] INFO: Webswing Event Dispatcher: org.webswing.dispatch.WebEventDispatcher
+2020-04-12 16:40:21,060 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] INFO: Webswing Paint Dispatcher: org.webswing.dispatch.WebPaintDispatcher
+2020-04-12 16:40:21,531 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 
+2020-04-12 16:40:21,654 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] KoLmafia v20.3
+2020-04-12 16:40:21,731 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Released on March 28, 2020
+2020-04-12 16:40:21,733 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 
+2020-04-12 16:40:21,733 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Currently Running on Linux
+2020-04-12 16:40:22,254 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Local Directory is /home/runner/.kolmafia
+2020-04-12 16:40:22,255 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] Using Java 11.0.6
+2020-04-12 16:40:22,255 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 
+2020-04-12 16:40:50,130 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 38803 [AWT-EventQueue-0] WARN org.webswing.services.impl.ddutil.FastDirectDrawServicesAdapter - Logical font Dialog not defined in font configuration. Using default browser counterpart.
+2020-04-12 16:40:50,254 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] 38986 [AWT-EventQueue-0] WARN org.webswing.services.impl.ddutil.FastDirectDrawServicesAdapter - Logical font Dialog not defined in font configuration. Using default browser counterpart.
+2020-04-12 16:42:05,754 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 60 seconds.
+2020-04-12 16:43:05,854 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 120 seconds.
+2020-04-12 16:44:05,054 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 180 seconds.
+2020-04-12 16:45:05,156 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 240 seconds.
+2020-04-12 16:46:05,254 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 300 seconds.
+2020-04-12 16:47:05,354 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 360 seconds.
+2020-04-12 16:48:05,354 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 420 seconds.
+2020-04-12 16:49:05,454 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 480 seconds.
+2020-04-12 16:50:05,554 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 540 seconds.
+2020-04-12 16:51:05,554 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 600 seconds.
+2020-04-12 16:52:05,654 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 660 seconds.
+2020-04-12 16:53:05,754 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 720 seconds.
+2020-04-12 16:54:05,854 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 780 seconds.
+2020-04-12 16:55:05,854 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 840 seconds.
+2020-04-12 16:56:05,954 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] WARNING: Session inactive for 900 seconds.
+2020-04-12 16:56:17,854 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+2020-04-12 16:56:17,855 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354]       after 11866 requests (11866 known processed) with 0 events remaining.
+2020-04-12 16:56:17,855 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafiaweb_ggar_37ea72a1a833_1586709607354] (II) Server terminated successfully (0). Closing log file.
+2020-04-12 16:56:39,139 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-12 16:56:42,743 INFO  [main] (StackLocator.java:71) Using Temp folder:/home/runner/kolmafia-web/tmp/release
+2020-04-12 16:56:42,744 INFO  [main] (StackLocator.java:71) Using Root folder:/home/runner/kolmafia-web
+2020-04-12 16:56:42,745 INFO  [main] (StackLocator.java:71) Using War file:file:/home/runner/kolmafia-web/webswing-server.war
+2020-04-12 16:56:42,746 INFO  [main] (StackLocator.java:71) Using Config file:file:/home/runner/kolmafia-web/webswing.config
+2020-04-12 16:56:43,943 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-12 16:56:45,341 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-12 16:56:58,742 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-12 16:56:59,943 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-12 16:56:59,944 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-12 16:56:59,944 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-12 16:56:59,945 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-12 16:56:59,946 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-12 16:57:07,545 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+>>>>>>> 9fe6183e174d92e3795c249fb3323f04ebba9a63
