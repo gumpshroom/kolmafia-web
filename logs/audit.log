@@ -31,3 +31,6 @@
 11-Apr-2020-14:13:13.903 | FAILED | quaggy | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-14:13:18.054 | FAILED | admin | Invalid Username or Password | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
 11-Apr-2020-14:13:25.496 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-21:30:39.188 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+11-Apr-2020-21:30:56.446 | SUCCESS | anonym |  | /kolmafia | http | 127.0.0.1 | org.webswing.server.services.security.modules.anonym.AnonymSecurityModule
+12-Apr-2020-12:45:49.370 | SUCCESS | ggar |  | / | http | 127.0.0.1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule

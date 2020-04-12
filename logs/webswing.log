@@ -703,3 +703,253 @@ Caused by: java.lang.RuntimeException: Java version not supported. (Versions sta
 2020-04-11 14:14:46,824 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586628836204] 	at java.lang.Thread.run(Thread.java:748)
 2020-04-11 14:14:46,824 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586628836204]  | 
 2020-04-11 14:14:47,217 INFO  [Webswing Process Handler] (SwingProcessImpl.java:158) [kolmafia_ggar_f71b443a4f55_1586628836204] app process terminated. 
+2020-04-11 21:29:45,452 INFO  [main] (WebswingServlet.java:36) Initializing Webswing 20.1
+2020-04-11 21:29:45,749 INFO  [main] (DefaultInitializer.java:29) Using Temp folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release
+2020-04-11 21:29:45,750 INFO  [main] (DefaultInitializer.java:33) Using Root folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1
+2020-04-11 21:29:45,750 INFO  [main] (DefaultInitializer.java:43) Using War file:file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing-server.war
+2020-04-11 21:29:45,751 INFO  [main] (DefaultInitializer.java:47) Using Config file:file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing.config
+2020-04-11 21:29:46,015 INFO  [main] (StartupServiceImpl.java:33) Starting service JmsServiceImpl
+2020-04-11 21:29:51,098 ERROR [main] (JmsServiceImpl.java:33) Failed to start JMS service.
+java.io.IOException: Failed to bind to server socket: nio://127.0.0.1:34455 due to: java.net.BindException: Address already in use
+	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:34) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:146) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:62) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.TransportFactorySupport.bind(TransportFactorySupport.java:40) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.createTransportConnector(BrokerService.java:2520) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.addConnector(BrokerService.java:339) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.addConnector(BrokerService.java:329) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.webswing.server.services.jms.JmsServiceImpl.startService(JmsServiceImpl.java:76) ~[classes/:?]
+	at org.webswing.server.services.jms.JmsServiceImpl.start(JmsServiceImpl.java:31) ~[classes/:?]
+	at org.webswing.server.services.startup.StartupServiceImpl.start(StartupServiceImpl.java:34) ~[classes/:?]
+	at org.webswing.server.WebswingServlet.init(WebswingServlet.java:54) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:671) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:428) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:352) [?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483) [?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) [?:1.8.0_241]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:1.8.0_241]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) [?:1.8.0_241]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) [?:1.8.0_241]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) [?:1.8.0_241]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:744) [WEB-INF_server-lib_jetty-servlet-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:369) [WEB-INF_server-lib_jetty-servlet-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497) [WEB-INF_server-lib_jetty-webapp-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459) [WEB-INF_server-lib_jetty-webapp-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278) [WEB-INF_server-lib_jetty-servlet-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545) [WEB-INF_server-lib_jetty-webapp-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.Server.start(Server.java:418) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.webswing.ServerMain.main(ServerMain.java:105) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at main.Main.main(Main.java:80) [webswing-server.war:?]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_241]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_241]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_241]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_241]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_241]
+	at org.apache.activemq.transport.nio.NIOTransportFactory$2.createServerSocket(NIOTransportFactory.java:83) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:143) ~[activemq-client-5.15.9.jar:5.15.9]
+	... 40 more
+2020-04-11 21:29:51,105 ERROR [main] (WebswingServlet.java:60) Initialization of Webswing failed. 
+org.webswing.server.model.exception.WsInitException: Failed to start JMS service.
+	at org.webswing.server.services.jms.JmsServiceImpl.start(JmsServiceImpl.java:34) ~[classes/:?]
+	at org.webswing.server.services.startup.StartupServiceImpl.start(StartupServiceImpl.java:34) ~[classes/:?]
+	at org.webswing.server.WebswingServlet.init(WebswingServlet.java:54) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:671) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:428) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:352) [?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483) [?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) [?:1.8.0_241]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:1.8.0_241]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) [?:1.8.0_241]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) [?:1.8.0_241]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) [?:1.8.0_241]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:744) [WEB-INF_server-lib_jetty-servlet-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:369) [WEB-INF_server-lib_jetty-servlet-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497) [WEB-INF_server-lib_jetty-webapp-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459) [WEB-INF_server-lib_jetty-webapp-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278) [WEB-INF_server-lib_jetty-servlet-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545) [WEB-INF_server-lib_jetty-webapp-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.Server.start(Server.java:418) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382) [WEB-INF_server-lib_jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [WEB-INF_server-lib_jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.webswing.ServerMain.main(ServerMain.java:105) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at main.Main.main(Main.java:80) [webswing-server.war:?]
+Caused by: java.io.IOException: Failed to bind to server socket: nio://127.0.0.1:34455 due to: java.net.BindException: Address already in use
+	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:34) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:146) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:62) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.TransportFactorySupport.bind(TransportFactorySupport.java:40) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.createTransportConnector(BrokerService.java:2520) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.addConnector(BrokerService.java:339) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.addConnector(BrokerService.java:329) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.webswing.server.services.jms.JmsServiceImpl.startService(JmsServiceImpl.java:76) ~[classes/:?]
+	at org.webswing.server.services.jms.JmsServiceImpl.start(JmsServiceImpl.java:31) ~[classes/:?]
+	... 33 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_241]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_241]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_241]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_241]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_241]
+	at org.apache.activemq.transport.nio.NIOTransportFactory$2.createServerSocket(NIOTransportFactory.java:83) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:143) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:62) ~[activemq-client-5.15.9.jar:5.15.9]
+	at org.apache.activemq.transport.TransportFactorySupport.bind(TransportFactorySupport.java:40) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.createTransportConnector(BrokerService.java:2520) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.addConnector(BrokerService.java:339) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.apache.activemq.broker.BrokerService.addConnector(BrokerService.java:329) ~[activemq-broker-5.15.9.jar:5.15.9]
+	at org.webswing.server.services.jms.JmsServiceImpl.startService(JmsServiceImpl.java:76) ~[classes/:?]
+	at org.webswing.server.services.jms.JmsServiceImpl.start(JmsServiceImpl.java:31) ~[classes/:?]
+	... 33 more
+2020-04-11 21:30:11,855 INFO  [main] (WebswingServlet.java:36) Initializing Webswing 20.1
+2020-04-11 21:30:12,098 INFO  [main] (DefaultInitializer.java:29) Using Temp folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release
+2020-04-11 21:30:12,099 INFO  [main] (DefaultInitializer.java:33) Using Root folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1
+2020-04-11 21:30:12,099 INFO  [main] (DefaultInitializer.java:43) Using War file:file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing-server.war
+2020-04-11 21:30:12,099 INFO  [main] (DefaultInitializer.java:47) Using Config file:file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing.config
+2020-04-11 21:30:12,290 INFO  [main] (StartupServiceImpl.java:33) Starting service JmsServiceImpl
+2020-04-11 21:30:22,521 INFO  [main] (StartupServiceImpl.java:33) Starting service WebSocketServiceImpl
+2020-04-11 21:30:24,250 INFO  [main] (StartupServiceImpl.java:33) Starting service ConfigurationServiceImpl
+2020-04-11 21:30:24,389 INFO  [main] (StartupServiceImpl.java:33) Starting service ExtensionServiceImpl
+2020-04-11 21:30:24,389 INFO  [main] (ExtensionServiceImpl.java:40) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-11 21:30:24,390 INFO  [main] (StartupServiceImpl.java:33) Starting service StatisticsLoggerServiceImpl
+2020-04-11 21:30:24,390 INFO  [main] (StartupServiceImpl.java:33) Starting service SwingProcessServiceImpl
+2020-04-11 21:30:24,390 INFO  [main] (SecurityManagerServiceImpl.java:43) Starting SecurityManagerServiceImpl
+2020-04-11 21:30:24,845 INFO  [main] (GlobalUrlHandler.java:165) Loading configured Applications.
+2020-04-11 21:30:24,886 INFO  [main] (GlobalUrlHandler.java:183) Installing application /kolmafia
+2020-04-11 21:30:24,984 INFO  [main] (GlobalUrlHandler.java:153) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-11 21:30:42,627 INFO  [qtp250075633-12] (SwingProcessImpl.java:80) Starting application process [kolmafia_ggar_f71b443a4f55_1586655042503] from [/Users/ggar/Documents/codeprojects/webswing-examples-20.1] :[/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/bin/java, -Xbootclasspath/a:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-api-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-java8-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext/jaccess.jar, -Djavax.sound.sampled.Clip=org.webswing.audio.AudioMixerProvider, -noverify, -Xmx4g, -Dwebswing.allowAutoDownload=true, -Dwebswing.jsLinkWhitelist=*, -Dwebswing.initialUrl=http://localhost:3000/kolmafia/, -Dwebswing.sessionTimeoutIfInactive=false, -Dawt.toolkit=org.webswing.toolkit.WebToolkit8, -Dwebswing.tempDirPath=file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/, -Dwebswing.printerJobDelegate=org.webswing.toolkit.WebPrinterJob, -Dwebswing.allowJsLink=true, -Dwebswing.transparentFileSave=true, -Dwebswing.allowUpload=true, -Dwebswing.directdraw.supported=true, -Dwebswing.sessionTimeoutSec=300, -Dwebswing.screenHeight=696, -Dwebswing.accessibilityEnabled=false, -Dwebswing.isolatedFs=false, -Dwebswing.allowDownload=true, -Dwebswing.transparentFileOpen=true, -Dwebswing.jmsUrl=nio://127.0.0.1:34455, -Dwebswing.allowDelete=true, -Dwebswing.clientId=kolmafia_ggar_f71b443a4f55_1586655042503, -Dwebswing.mainClass=net.sourceforge.kolmafia.KoLmafia, -Dwebswing.applicationHome=/Users/ggar/Documents/codeprojects/webswing-examples-20.1, -Dwebswing.compositingWindowManager=false, -Dwebswing.screenWidth=1309, -Djava.awt.printerjob=org.webswing.toolkit.WebPrinterJobWrapper, -Dwebswing.allowLocalClipboard=true, -Dwebswing.messagingApiTopicName=msgApiSharedTopic/kolmafia, -Dwebswing.classPath=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/apps/KoLMafia-20.3.jar, -Dwebswing.appId=/kolmafia, -Dwebswing.directdraw=true, -Dwebswing.transfer.dir=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/ggar/upload, -Dwebswing.theme=Murrine, -Dwebswing.touchMode=false, -Djava.awt.graphicsenv=org.webswing.toolkit.ge.WebGraphicsEnvironment8, -Djava.awt.headless=false, -Dwebswing.jmsQueueId=kolmafia_ggar_f71b443a4f55_1586655042503, -Dwebswing.dockMode=ALL, -Dwebswing.testMode=false, -cp, /Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing-server.war, main.Main]
+2020-04-11 21:30:43,338 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] INFO: JPDFWriter library not found on classpath, fallback to FreeHEP PDF service.
+2020-04-11 21:30:48,742 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] INFO: ClassModificationRegister: lock acquired.
+2020-04-11 21:30:48,742 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] INFO: Webswing Event Dispatcher: org.webswing.dispatch.WebEventDispatcher
+2020-04-11 21:30:48,742 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] INFO: Webswing Paint Dispatcher: org.webswing.dispatch.WebPaintDispatcher
+2020-04-11 21:30:48,743 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] 
+2020-04-11 21:30:48,743 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] KoLmafia v20.3
+2020-04-11 21:30:48,743 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] Released on March 28, 2020
+2020-04-11 21:30:48,743 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] 
+2020-04-11 21:30:48,743 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] Currently Running on Mac OS X
+2020-04-11 21:30:48,837 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+2020-04-11 21:30:48,838 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] Using Java 1.8.0_241
+2020-04-11 21:30:48,838 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_ggar_f71b443a4f55_1586655042503] 
+2020-04-11 21:30:49,340 INFO  [Webswing Process Handler] (SwingProcessImpl.java:158) [kolmafia_ggar_f71b443a4f55_1586655042503] app process terminated. 
+2020-04-11 21:30:56,504 INFO  [qtp250075633-44] (SwingProcessImpl.java:80) Starting application process [kolmafia_anonym_f71b443a4f55_1586655056496] from [/Users/ggar/Documents/codeprojects/webswing-examples-20.1] :[/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/bin/java, -Xbootclasspath/a:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-api-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-java8-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext/jaccess.jar, -Djavax.sound.sampled.Clip=org.webswing.audio.AudioMixerProvider, -noverify, -Xmx4g, -Dwebswing.allowAutoDownload=true, -Dwebswing.jsLinkWhitelist=*, -Dwebswing.initialUrl=http://localhost:3000/kolmafia/, -Dwebswing.sessionTimeoutIfInactive=false, -Dawt.toolkit=org.webswing.toolkit.WebToolkit8, -Dwebswing.tempDirPath=file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/, -Dwebswing.printerJobDelegate=org.webswing.toolkit.WebPrinterJob, -Dwebswing.allowJsLink=true, -Dwebswing.transparentFileSave=true, -Dwebswing.allowUpload=true, -Dwebswing.directdraw.supported=true, -Dwebswing.sessionTimeoutSec=300, -Dwebswing.screenHeight=696, -Dwebswing.accessibilityEnabled=false, -Dwebswing.isolatedFs=false, -Dwebswing.allowDownload=true, -Dwebswing.transparentFileOpen=true, -Dwebswing.jmsUrl=nio://127.0.0.1:34455, -Dwebswing.allowDelete=true, -Dwebswing.clientId=kolmafia_anonym_f71b443a4f55_1586655056496, -Dwebswing.mainClass=net.sourceforge.kolmafia.KoLmafia, -Dwebswing.applicationHome=/Users/ggar/Documents/codeprojects/webswing-examples-20.1, -Dwebswing.compositingWindowManager=false, -Dwebswing.screenWidth=1309, -Djava.awt.printerjob=org.webswing.toolkit.WebPrinterJobWrapper, -Dwebswing.allowLocalClipboard=true, -Dwebswing.messagingApiTopicName=msgApiSharedTopic/kolmafia, -Dwebswing.classPath=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/apps/KoLMafia-20.3.jar, -Dwebswing.appId=/kolmafia, -Dwebswing.directdraw=true, -Dwebswing.transfer.dir=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/anonym/upload, -Dwebswing.theme=Murrine, -Dwebswing.touchMode=false, -Djava.awt.graphicsenv=org.webswing.toolkit.ge.WebGraphicsEnvironment8, -Djava.awt.headless=false, -Dwebswing.jmsQueueId=kolmafia_anonym_f71b443a4f55_1586655056496, -Dwebswing.dockMode=ALL, -Dwebswing.testMode=false, -cp, /Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing-server.war, main.Main]
+2020-04-11 21:30:57,131 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] INFO: JPDFWriter library not found on classpath, fallback to FreeHEP PDF service.
+2020-04-11 21:31:02,431 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] INFO: ClassModificationRegister: lock acquired.
+2020-04-11 21:31:02,432 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] INFO: Webswing Event Dispatcher: org.webswing.dispatch.WebEventDispatcher
+2020-04-11 21:31:02,432 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] INFO: Webswing Paint Dispatcher: org.webswing.dispatch.WebPaintDispatcher
+2020-04-11 21:31:02,432 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] 
+2020-04-11 21:31:02,432 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] KoLmafia v20.3
+2020-04-11 21:31:02,432 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] Released on March 28, 2020
+2020-04-11 21:31:02,432 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] 
+2020-04-11 21:31:02,433 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] Currently Running on Mac OS X
+2020-04-11 21:31:02,528 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+2020-04-11 21:31:02,529 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] Using Java 1.8.0_241
+2020-04-11 21:31:02,529 INFO  [Webswing Process Handler] (SwingProcessImpl.java:324) [kolmafia_anonym_f71b443a4f55_1586655056496] 
+2020-04-11 21:31:02,730 INFO  [Webswing Process Handler] (SwingProcessImpl.java:158) [kolmafia_anonym_f71b443a4f55_1586655056496] app process terminated. 
+2020-04-12 12:44:53,399 INFO  [main] (StackLocator.java:71) Initializing Webswing 20.1
+2020-04-12 12:44:53,779 INFO  [main] (StackLocator.java:71) Using Temp folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release
+2020-04-12 12:44:53,780 INFO  [main] (StackLocator.java:71) Using Root folder:/Users/ggar/Documents/codeprojects/webswing-examples-20.1
+2020-04-12 12:44:53,781 INFO  [main] (StackLocator.java:71) Using War file:file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing-server.war
+2020-04-12 12:44:53,781 INFO  [main] (StackLocator.java:71) Using Config file:file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing.config
+2020-04-12 12:44:53,906 INFO  [main] (StackLocator.java:71) Starting service JmsServiceImpl
+2020-04-12 12:44:54,160 INFO  [main] (StackLocator.java:71) Starting service WebSocketServiceImpl
+2020-04-12 12:44:55,743 INFO  [main] (StackLocator.java:71) Starting service ConfigurationServiceImpl
+2020-04-12 12:44:55,912 INFO  [main] (StackLocator.java:71) Starting service ExtensionServiceImpl
+2020-04-12 12:44:55,913 INFO  [main] (StackLocator.java:71) Initializing extension provider org.webswing.server.extension.DefaultExtensionProvider
+2020-04-12 12:44:55,913 INFO  [main] (StackLocator.java:71) Starting service StatisticsLoggerServiceImpl
+2020-04-12 12:44:55,914 INFO  [main] (StackLocator.java:71) Starting service SwingProcessServiceImpl
+2020-04-12 12:44:55,914 INFO  [main] (StackLocator.java:71) Starting SecurityManagerServiceImpl
+2020-04-12 12:44:56,436 INFO  [main] (StackLocator.java:71) Loading configured Applications.
+2020-04-12 12:44:56,481 INFO  [main] (StackLocator.java:71) Installing application /kolmafia
+2020-04-12 12:44:56,576 INFO  [main] (StackLocator.java:71) Loading master security module.({module=EMBEDED, config={users=[{username=ggar, password=$hashed$G13eITSwyLoZ-SgdOtqy3JSciii8-zQopchIZHhNRvI, roles=[admin]}, {username=support, password=$hashed$EVZdX6twCVrlAbnjUcm1Iq-FXAWr6G4mGFkpvOGlWSc, roles=[support]}, {username=user, password=$hashed$T6C-Lf7ADqO-fQA6Fu29ubSFhlX9_TOgJNW5Uytt4PM, roles=[]}], extensions=[]}, classPath=[]}).
+2020-04-12 12:45:51,173 INFO  [qtp2012846597-53] (StackLocator.java:71) Starting application process [kolmafia_ggar_59a45b04de7e_1586709951066] from [/Users/ggar/Documents/codeprojects/webswing-examples-20.1] :[/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/bin/java, --patch-module, jdk.jsobject=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_jdk.jsobject.modpatch-1.jar, --patch-module, java.desktop=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar, --add-reads, jdk.jsobject=ALL-UNNAMED, --add-opens, java.base/java.net=ALL-UNNAMED, --add-opens, java.desktop/java.awt=ALL-UNNAMED, --add-opens, java.desktop/sun.awt.windows=ALL-UNNAMED, --add-opens, java.desktop/java.awt.event=ALL-UNNAMED, -Xbootclasspath/a:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-api-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-java11-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_webswing-app-toolkit-20.1.jar:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/WEB-INF_swing-boot_java.desktop.modpatch-1.jar, -Djavax.sound.sampled.Clip=org.webswing.audio.AudioMixerProvider, -noverify, -Xmx4g, -Dwebswing.allowAutoDownload=true, -Dwebswing.jsLinkWhitelist=*, -Dwebswing.initialUrl=http://localhost:3000/kolmafia/, -Dwebswing.sessionTimeoutIfInactive=false, -Dawt.toolkit=org.webswing.toolkit.WebToolkit11, -Dwebswing.tempDirPath=file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/tmp/release/, -Dwebswing.printerJobDelegate=org.webswing.toolkit.WebPrinterJob, -Dwebswing.allowJsLink=true, -Dwebswing.transparentFileSave=true, -Dwebswing.allowUpload=true, -Dwebswing.directdraw.supported=true, -Dwebswing.sessionTimeoutSec=300, -Dwebswing.screenHeight=696, -Dwebswing.accessibilityEnabled=false, -Dwebswing.isolatedFs=false, -Dwebswing.allowDownload=true, -Dwebswing.transparentFileOpen=true, -Dwebswing.jmsUrl=nio://127.0.0.1:34455, -Dwebswing.allowDelete=true, -Dwebswing.clientId=kolmafia_ggar_59a45b04de7e_1586709951066, -Dwebswing.mainClass=net.sourceforge.kolmafia.KoLmafia, -Dwebswing.applicationHome=/Users/ggar/Documents/codeprojects/webswing-examples-20.1, -Dwebswing.compositingWindowManager=false, -Dwebswing.screenWidth=1309, -Djava.awt.printerjob=org.webswing.toolkit.WebPrinterJobWrapper, -Dwebswing.allowLocalClipboard=true, -Dwebswing.messagingApiTopicName=msgApiSharedTopic/kolmafia, -Dwebswing.classPath=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/apps/KoLMafia-20.3.jar, -Dwebswing.appId=/kolmafia, -Dwebswing.directdraw=true, -Dwebswing.transfer.dir=/Users/ggar/Documents/codeprojects/webswing-examples-20.1/ggar/upload, -Dwebswing.theme=Murrine, -Dwebswing.touchMode=false, -Djava.awt.graphicsenv=org.webswing.toolkit.ge.WebGraphicsEnvironment11, -Djava.awt.headless=false, -Dwebswing.jmsQueueId=kolmafia_ggar_59a45b04de7e_1586709951066, -Dwebswing.dockMode=ALL, -Dwebswing.testMode=false, -cp, /Users/ggar/Documents/codeprojects/webswing-examples-20.1/webswing-server.war, main.Main]
+2020-04-12 12:45:51,399 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] WARNING: package sun.awt.windows not in java.desktop
+2020-04-12 12:45:51,795 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] INFO: JPDFWriter library not found on classpath, fallback to FreeHEP PDF service.
+2020-04-12 12:45:57,099 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] INFO: ClassModificationRegister: lock acquired.
+2020-04-12 12:45:57,195 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] INFO: Webswing Event Dispatcher: org.webswing.dispatch.WebEventDispatcher
+2020-04-12 12:45:57,195 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] INFO: Webswing Paint Dispatcher: org.webswing.dispatch.WebPaintDispatcher
+2020-04-12 12:45:57,195 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 
+2020-04-12 12:45:57,196 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] KoLmafia v20.3
+2020-04-12 12:45:57,196 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] Released on March 28, 2020
+2020-04-12 12:45:57,196 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 
+2020-04-12 12:45:57,196 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] Currently Running on Mac OS X
+2020-04-12 12:45:57,222 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] Local Directory is /Users/ggar/Library/Application Support/KoLmafia
+2020-04-12 12:45:57,222 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] Using Java 11.0.6
+2020-04-12 12:45:57,222 INFO  [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 
+2020-04-12 12:45:57,401 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] WARNING: An illegal reflective access operation has occurred
+2020-04-12 12:45:57,401 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] WARNING: Illegal reflective access by apple.dts.samplecode.osxadapter.OSXAdapter (file:/Users/ggar/Documents/codeprojects/webswing-examples-20.1/apps/KoLMafia-20.3.jar) to constructor com.apple.eawt.Application()
+2020-04-12 12:45:57,402 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] WARNING: Please consider reporting this to the maintainers of apple.dts.samplecode.osxadapter.OSXAdapter
+2020-04-12 12:45:57,402 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2020-04-12 12:45:57,402 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] WARNING: All illegal access operations will be denied in a future release
+2020-04-12 12:46:00,397 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] This version of Mac OS X does not support the Apple EAWT.  ApplicationEvent handling has been disabled (java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener)
+2020-04-12 12:46:00,397 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] This version of Mac OS X does not support the Apple EAWT.  ApplicationEvent handling has been disabled (java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener)
+2020-04-12 12:46:00,397 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] OSXAdapter could not access the About Menu
+2020-04-12 12:46:00,397 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledAboutMenu(boolean)
+2020-04-12 12:46:00,397 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+2020-04-12 12:46:00,423 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at apple.dts.samplecode.osxadapter.OSXAdapter.setAboutHandler(OSXAdapter.java:114)
+2020-04-12 12:46:00,423 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.addOSXMenuItems(CreateFrameRunnable.java:357)
+2020-04-12 12:46:00,423 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.decorate(CreateFrameRunnable.java:335)
+2020-04-12 12:46:00,423 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.runConstruction(CreateFrameRunnable.java:302)
+2020-04-12 12:46:00,423 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.createFrame(CreateFrameRunnable.java:182)
+2020-04-12 12:46:00,423 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.run(CreateFrameRunnable.java:164)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2020-04-12 12:46:00,424 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] This version of Mac OS X does not support the Apple EAWT.  ApplicationEvent handling has been disabled (java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] OSXAdapter could not access the About Menu
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledPreferencesMenu(boolean)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+2020-04-12 12:46:00,425 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at apple.dts.samplecode.osxadapter.OSXAdapter.setPreferencesHandler(OSXAdapter.java:132)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.addOSXMenuItems(CreateFrameRunnable.java:359)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.decorate(CreateFrameRunnable.java:335)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.runConstruction(CreateFrameRunnable.java:302)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.createFrame(CreateFrameRunnable.java:182)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at net.sourceforge.kolmafia.CreateFrameRunnable.run(CreateFrameRunnable.java:164)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2020-04-12 12:46:00,426 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-04-12 12:46:00,427 ERROR [Webswing Process Handler] (StackLocator.java:71) [kolmafia_ggar_59a45b04de7e_1586709951066] 8729 [AWT-EventQueue-0] WARN org.webswing.services.impl.ddutil.FastDirectDrawServicesAdapter - Logical font Dialog not defined in font configuration. Using default browser counterpart.
+2020-04-12 12:46:48,613 INFO  [qtp2012846597-45] (StackLocator.java:71) App configuration for path '/kolmafia' changed.
