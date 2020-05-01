@@ -1,0 +1,6 @@
+01-May-2020-17:47:02.754 | FAILED | ggar | Invalid Username or Password | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+01-May-2020-17:47:06.088 | FAILED | admin | Invalid Username or Password | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+01-May-2020-17:47:11.688 | FAILED | quaggy | Invalid Username or Password | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+01-May-2020-17:47:28.506 | FAILED | ggar | Invalid Username or Password | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+01-May-2020-17:47:35.728 | FAILED | ggar | Invalid Username or Password | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+01-May-2020-17:48:44.374 | SUCCESS | ggar |  | / | http | 0:0:0:0:0:0:0:1 | org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
