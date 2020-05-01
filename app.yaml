@@ -1,5 +1,2 @@
-runtime: python
+runtime: java
 env: flex
-
-runtime_config:
-    python_version: 2
